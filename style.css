@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: #100C08;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#home {
+  color: #ff00b4;
+}
+
+nav a {
+  text-decoration: none;
+  align-self: center;
+  color: #00ffbc;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+nav a:hover, #home:hover {
+  text-decoration: underline overline;
+}
+
+nav a:active, #home:active {
+  color: #fff
+}
